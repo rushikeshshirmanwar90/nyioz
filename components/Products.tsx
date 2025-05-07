@@ -1,8 +1,6 @@
 // components/Products.js
 "use client"
 
-import { ChevronRight } from "lucide-react"
-import { Button } from "@/components/ui/button"
 import ProductCard from "@/components/product-card"
 import FadeIn from "@/components/animations/fade-in"
 import StaggerChildren from "@/components/animations/stagger-children"
@@ -13,6 +11,9 @@ import product3 from "@/public/images/products/product (3).jpg"
 import product4 from "@/public/images/products/product (4).jpg"
 import product5 from "@/public/images/products/product (5).jpg"
 import product6 from "@/public/images/products/product (6).jpg"
+import product7 from "@/public/images/products/product (7).jpg"
+import product8 from "@/public/images/products/product (8).jpg"
+import product10 from "@/public/images/products/product (10).jpg"
 
 export default function Products() {
     return (
@@ -87,13 +88,45 @@ export default function Products() {
                             "Supports growth and development",
                         ]}
                     />
+
+                    <ProductCard
+                        name="METOFOL"
+                        description="L-Methylfolate Calcium 1mg + Methylcobalamin 1500mcg + Pyridoxal-5-Phosphate 0.5mg Tablets"
+                        category="Prenatal Supplement"
+                        image={product7}
+                        benefits={[
+                            "Supports fetal brain, heart & eye development",
+                            "Helps prevent neural tube defects (NTDs)",
+                            "Reduces risk of low birth weight and pre-eclampsia",
+                        ]}
+                    />
+
+                    <ProductCard
+                        name="GIACAL-K2"
+                        description="Cissus quadrangularis 500mg + Calcium Carbonate 500mg + Vitamin K2-7 45mcg Tablets"
+                        category="Bone Health Supplement"
+                        image={product8}
+                        benefits={[
+                            "Enhances mobility and improves activity",
+                            "Helps in early regeneration & mineralization of bones",
+                            "Reduces inflammation and boosts bone strength"
+                        ]}
+                    />
+
+                    <ProductCard
+                        name="GAINARD"
+                        description="Syrup"
+                        category="Nutritional Supplement"
+                        image={product10}
+                        benefits={[
+                            "Supports nutritional intake",
+                            "Promotes overall health",
+                            "Enhances well-being"
+                        ]}
+                    />
+
                 </StaggerChildren>
 
-                <FadeIn direction="up" delay={0.4} className="mt-12 text-center">
-                    <Button className="bg-blue-700 hover:bg-blue-800">
-                        View All Products <ChevronRight className="ml-2 h-4 w-4" />
-                    </Button>
-                </FadeIn>
             </div>
         </section>
     )

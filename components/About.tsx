@@ -121,36 +121,73 @@ export default function About() {
                             </div>
                         </FadeIn>
                     </div>
-                    <FadeIn direction="left" className="md:w-1/2 relative">
-                        <div className="grid grid-cols-2 gap-4">
-                            <motion.div
-                                whileHover={{ scale: 1.05 }}
-                                transition={{ type: "spring", stiffness: 300 }}
-                                className="aspect-square relative rounded-lg overflow-hidden"
-                            >
-                                <Image src={img1} alt="Pharmaceutical Research" fill className="object-cover" />
-                            </motion.div>
-                            <motion.div
-                                whileHover={{ scale: 1.05 }}
-                                transition={{ type: "spring", stiffness: 300 }}
-                                className="aspect-square relative rounded-lg overflow-hidden mt-8"
-                            >
-                                <Image src={img2} alt="Quality Control" fill className="object-cover" />
-                            </motion.div>
-                            <motion.div
-                                whileHover={{ scale: 1.05 }}
-                                transition={{ type: "spring", stiffness: 300 }}
-                                className="aspect-square relative rounded-lg overflow-hidden -mt-8"
-                            >
-                                <Image src={img3} alt="Manufacturing Facility" fill className="object-cover" />
-                            </motion.div>
-                            <motion.div
-                                whileHover={{ scale: 1.05 }}
-                                transition={{ type: "spring", stiffness: 300 }}
-                                className="aspect-square relative rounded-lg overflow-hidden"
-                            >
-                                <Image src={img4} alt="Research Team" fill className="object-cover" />
-                            </motion.div>
+                    <FadeIn direction="left" className="w-full md:w-1/2 relative">
+                        {/* Mobile image display - visible only on small screens */}
+                        <div className="block md:hidden">
+                            <div className="space-y-4">
+                                <motion.div
+                                    whileHover={{ scale: 1.02 }}
+                                    transition={{ type: "spring", stiffness: 300 }}
+                                    className="w-full h-48 relative rounded-lg overflow-hidden"
+                                >
+                                    <Image src={img1} alt="Pharmaceutical Research" fill className="object-cover" />
+                                </motion.div>
+                                <motion.div
+                                    whileHover={{ scale: 1.02 }}
+                                    transition={{ type: "spring", stiffness: 300 }}
+                                    className="w-full h-48 relative rounded-lg overflow-hidden"
+                                >
+                                    <Image src={img2} alt="Quality Control" fill className="object-cover" />
+                                </motion.div>
+                                <motion.div
+                                    whileHover={{ scale: 1.02 }}
+                                    transition={{ type: "spring", stiffness: 300 }}
+                                    className="w-full h-48 relative rounded-lg overflow-hidden"
+                                >
+                                    <Image src={img3} alt="Manufacturing Facility" fill className="object-cover" />
+                                </motion.div>
+                                <motion.div
+                                    whileHover={{ scale: 1.02 }}
+                                    transition={{ type: "spring", stiffness: 300 }}
+                                    className="w-full h-48 relative rounded-lg overflow-hidden"
+                                >
+                                    <Image src={img4} alt="Research Team" fill className="object-cover" />
+                                </motion.div>
+                            </div>
+                        </div>
+
+                        {/* Desktop image display - visible only on medium screens and up */}
+                        <div className="hidden md:block">
+                            <div className="grid grid-cols-2 gap-4">
+                                <motion.div
+                                    whileHover={{ scale: 1.05 }}
+                                    transition={{ type: "spring", stiffness: 300 }}
+                                    className="aspect-square relative rounded-lg overflow-hidden"
+                                >
+                                    <Image src={img1} alt="Pharmaceutical Research" fill className="object-cover" />
+                                </motion.div>
+                                <motion.div
+                                    whileHover={{ scale: 1.05 }}
+                                    transition={{ type: "spring", stiffness: 300 }}
+                                    className="aspect-square relative rounded-lg overflow-hidden mt-8"
+                                >
+                                    <Image src={img2} alt="Quality Control" fill className="object-cover" />
+                                </motion.div>
+                                <motion.div
+                                    whileHover={{ scale: 1.05 }}
+                                    transition={{ type: "spring", stiffness: 300 }}
+                                    className="aspect-square relative rounded-lg overflow-hidden -mt-8"
+                                >
+                                    <Image src={img3} alt="Manufacturing Facility" fill className="object-cover" />
+                                </motion.div>
+                                <motion.div
+                                    whileHover={{ scale: 1.05 }}
+                                    transition={{ type: "spring", stiffness: 300 }}
+                                    className="aspect-square relative rounded-lg overflow-hidden"
+                                >
+                                    <Image src={img4} alt="Research Team" fill className="object-cover" />
+                                </motion.div>
+                            </div>
                         </div>
                     </FadeIn>
                 </div>
