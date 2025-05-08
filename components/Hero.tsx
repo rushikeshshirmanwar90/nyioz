@@ -25,14 +25,14 @@ export default function Hero() {
                                 quality pharmaceutical products.
                             </p>
                         </FadeIn>
-                        <FadeIn direction="up" delay={0.6}>
+                        {/* <FadeIn direction="up" delay={0.6}>
                             <div className="flex flex-col sm:flex-row gap-4">
                                 <Button className="bg-orange-500 hover:bg-orange-600 text-white">Discover Our Products</Button>
                                 <Button variant="outline" className="bg-white text-blue-700 hover:bg-blue-50">
                                     Learn More About Us
                                 </Button>
                             </div>
-                        </FadeIn>
+                        </FadeIn> */}
                     </div>
                     <FadeIn direction="left" delay={0.4}>
                         <div className="relative h-[300px] md:h-[400px] rounded-lg overflow-hidden">
