@@ -3,7 +3,6 @@
 
 import Image from "next/image"
 import { motion } from "framer-motion"
-import { Button } from "@/components/ui/button"
 import FadeIn from "@/components/animations/fade-in"
 
 import heroImage from "@/public/images/hero.jpg"
