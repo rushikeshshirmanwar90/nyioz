@@ -32,3 +32,5 @@ export default function RootLayout({ children }: { children: ReactNode }) {
     </html>
   )
 }
+
+// https://v0.dev/chat/fork-of-website-design-requirements-b2BRUlt7DO1
