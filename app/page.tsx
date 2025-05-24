@@ -10,6 +10,7 @@ import Stats from "@/components/Stats"
 import Contact from "@/components/Contact"
 import Footer from "@/components/Footer"
 import Leadership from "@/components/Leadership"
+import Disclaimer from "@/components/Disclaimer"
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
         <Products />
         <Stats />
         <Contact />
+        <Disclaimer />
       </main>
       <Footer />
     </div>

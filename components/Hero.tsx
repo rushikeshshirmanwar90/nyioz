@@ -5,7 +5,7 @@ import Image from "next/image"
 import { motion } from "framer-motion"
 import FadeIn from "@/components/animations/fade-in"
 
-import heroImage from "@/public/images/hero.jpg"
+import heroImage from "@/public/images/img-4.jpg"
 
 export default function Hero() {
     return (
