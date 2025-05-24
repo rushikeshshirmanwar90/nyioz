@@ -9,6 +9,7 @@ import Products from "@/components/Products"
 import Stats from "@/components/Stats"
 import Contact from "@/components/Contact"
 import Footer from "@/components/Footer"
+import Leadership from "@/components/Leadership"
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         <Hero />
         <Features />
         <About />
+        <Leadership />
         <Products />
         <Stats />
         <Contact />
