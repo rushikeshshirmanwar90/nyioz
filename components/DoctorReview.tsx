@@ -51,7 +51,7 @@ const doctorReviews = [
 
 export default function DoctorsReviewSection() {
     return (
-        <section className="py-16 md:py-24 bg-gray-50 flex align-items-center justify-center">
+        <section className="py-16 md:py-24 bg-gray-50 flex align-items-center justify-center p-4">
             <div className="container">
                 <div className="text-center max-w-4xl mx-auto mb-16">
                     <FadeIn direction="up">

@@ -3,7 +3,7 @@ import FadeIn from "@/components/animations/fade-in"
 import CountUp from './animations/count-up'
 import Image from 'next/image'
 
-import img from "@/public/images/about.jpg"
+import img from "@/public/images/meeting.jpg"
 
 const Stats = () => {
     return (
