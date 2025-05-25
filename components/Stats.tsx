@@ -22,18 +22,10 @@ const Stats = () => {
                                 </p>
                             </FadeIn>
                             <div className="grid grid-cols-2 gap-6">
-                                {/* <FadeIn direction="up" delay={0.2}>
-                                    <div className="flex flex-col items-center bg-white/10 p-6 rounded-lg backdrop-blur-sm">
-                                        <div className="text-4xl font-bold mb-2">
-                                            <CountUp end={10} suffix="+" className="text-4xl font-bold" />
-                                        </div>
-                                        <div className="text-center text-green-100">Years of Experience</div>
-                                    </div>
-                                </FadeIn> */}
                                 <FadeIn direction="up" delay={0.3}>
                                     <div className="flex flex-col items-center bg-white/10 p-6 rounded-lg backdrop-blur-sm">
                                         <div className="text-4xl font-bold mb-2">
-                                            <CountUp end={15} suffix="+" className="text-4xl font-bold" />
+                                            <CountUp end={50} suffix="+" className="text-4xl font-bold" />
                                         </div>
                                         <div className="text-center text-green-100">Products</div>
                                     </div>
@@ -51,7 +43,7 @@ const Stats = () => {
                                         <div className="text-4xl font-bold mb-2">
                                             <CountUp end={15} suffix="+" className="text-4xl font-bold" />
                                         </div>
-                                        <div className="text-center text-green-100">Manufacturing Units</div>
+                                        <div className="text-center text-green-100">Collaboration with manufacturing Units</div>
                                     </div>
                                 </FadeIn>
                             </div>

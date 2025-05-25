@@ -11,6 +11,7 @@ import Contact from "@/components/Contact"
 import Footer from "@/components/Footer"
 import Leadership from "@/components/Leadership"
 import Disclaimer from "@/components/Disclaimer"
+import DoctorsReviewSection from "@/components/DoctorReview"
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
         <Features />
         <About />
         <Leadership />
+        <DoctorsReviewSection />
         <Products />
         <Stats />
         <Contact />

@@ -8,7 +8,7 @@ import FadeIn from "@/components/animations/fade-in"
 import img1 from "@/public/images/img-1.jpg"
 import img2 from "@/public/images/img-2.jpg"
 import img3 from "@/public/images/img-3.jpg"
-import img4 from "@/public/images/img-4.jpg"
+import img4 from "@/public/images/img4.jpg"
 
 export default function About() {
     return (

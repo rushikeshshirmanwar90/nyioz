@@ -43,7 +43,7 @@ const Leadership = () => {
                             </motion.div>
                             <div className="text-center mt-4">
                                 <h3 className="text-xl font-bold text-blue-800">Mrs. Thakur P.S</h3>
-                                <p className="text-orange-600 font-medium">Chief Executive Officer (CEO)</p>
+                                <p className="text-orange-600 font-medium center">Chief Executive Officer (CEO)</p>
                             </div>
                         </div>
                         <div className="lg:w-2/3 space-y-4">
@@ -93,7 +93,7 @@ const Leadership = () => {
                             </motion.div>
                             <div className="text-center mt-4">
                                 <h4 className="text-xl font-bold text-blue-800">Md. Yaseen S.</h4>
-                                <p className="text-orange-600 font-medium">Director of Operations</p>
+                                <p className="text-orange-600 font-medium center" >Director of Operations</p>
                             </div>
                         </div>
                         <div className="lg:w-2/3 space-y-4">
