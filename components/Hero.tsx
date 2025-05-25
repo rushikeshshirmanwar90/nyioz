@@ -11,7 +11,7 @@ import { Button } from "./ui/button"
 export default function Hero() {
     return (
         <section id="home" className="relative">
-            <div className="bg-gradient-to-r from-blue-700 via-blue-600 to-blue-800 min-h-screen flex items-center justify-center">
+            <div className="bg-gradient-to-r from-blue-700 via-blue-600 to-blue-800 min-h-screen flex items-center justify-center p-8">
                 <div className="container grid gap-8 md:grid-cols-2 items-center justify-center text-center md:text-left">
                     <div className="space-y-6">
                         <FadeIn direction="up" delay={0.2}>
