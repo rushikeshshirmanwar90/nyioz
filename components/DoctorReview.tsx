@@ -8,44 +8,54 @@ import StaggerChildren from "@/components/animations/stagger-children"
 
 const doctorReviews = [
     {
-        name: "Dr. Rajesh Kumar",
-        specialty: "Cardiologist",
-        hospital: "Apollo Hospital, Mumbai",
+        name: "Dr. Sarang Chobe",
+        specialty: "Gynaecologist",
+        hospital: "Women's Health Clinic",
         rating: 5,
         review:
-            "NYLOZ Pharmaceutical has consistently delivered high-quality medications that I trust for my patients. Their GIACALY tablets have shown remarkable results in improving bone health in elderly patients. The quality control and efficacy are outstanding.",
+            "Nyloz Pharmaceuticals consistently delivers high-quality formulations that are ideal for women's health. Their tablets and supplements are well-tolerated and produce excellent therapeutic outcomes. I have observed noticeable improvements in my patients' recovery and compliance. I wholeheartedly recommend Nyloz to my colleagues in gynecology.",
         experience: "15+ years",
-        patients: "5000+",
+        patients: "4500+",
     },
     {
-        name: "Dr. Priya Sharma",
-        specialty: "Pediatrician",
-        hospital: "Fortis Healthcare, Delhi",
+        name: "Dr. Sunil Thadke",
+        specialty: "Paediatrician",
+        hospital: "Children's Healthcare Center",
         rating: 5,
         review:
-            "I've been prescribing GROWKOA syrup for children with appetite issues, and the results have been exceptional. Parents consistently report improved appetite and healthy weight gain. NYLOZ's commitment to child-friendly formulations is commendable.",
-        experience: "12+ years",
-        patients: "3500+",
-    },
-    {
-        name: "Dr. Mohammed Ali",
-        specialty: "Gastroenterologist",
-        hospital: "Max Super Speciality Hospital",
-        rating: 5,
-        review:
-            "DAXTON Capsules DSR has been a game-changer for my GERD patients. The dual-release formulation provides excellent symptom control with minimal side effects. I highly recommend NYLOZ products for their reliability and effectiveness.",
+            "The pediatric medicines from Nyloz have become a trusted part of my practice. From multivitamin syrups to antibiotics, the efficacy, palatability, and quality control are outstanding. Nyloz has set a new benchmark in pediatric care.",
         experience: "18+ years",
-        patients: "4200+",
+        patients: "6000+",
     },
     {
-        name: "Dr. Sunita Patel",
-        specialty: "General Physician",
-        hospital: "Lilavati Hospital, Mumbai",
+        name: "Dr. Shushma Bhartiya",
+        specialty: "Gynaecologist",
+        hospital: "Maternal Care Hospital",
         rating: 5,
         review:
-            "FEBRIXA DS has proven to be highly effective for fever and pain management in both adults and children. The rapid onset of action and safety profile make it my go-to choice. NYLOZ maintains excellent pharmaceutical standards.",
+            "Nyloz Pharmaceuticals has truly impressed me with their range of gynecological products. Their attention to detail in dosage and patient-centric formulations makes them a top choice. I have seen exceptional patient compliance and rapid therapeutic results. Highly recommended for OB-GYN professionals.",
         experience: "20+ years",
-        patients: "8000+",
+        patients: "7500+",
+    },
+    {
+        name: "Dr. Sakhib Shaikh",
+        specialty: "Paediatrician",
+        hospital: "Kids Care Medical Center",
+        rating: 5,
+        review:
+            "Nyloz Pharmaceuticals offers a range of pediatric syrups that have shown remarkable results in my young patients. The taste is child-friendly, and the formulations are scientifically crafted to ensure safety and efficacy. I confidently recommend Nyloz products to pediatricians seeking reliable, well-researched medications.",
+        experience: "12+ years",
+        patients: "3800+",
+    },
+    {
+        name: "Dr. Irfan Khan",
+        specialty: "Orthopaedic Surgeon",
+        hospital: "Bone & Joint Specialty Hospital",
+        rating: 5,
+        review:
+            "Nyloz's orthopedic range, including pain management and calcium supplements, delivers impressive clinical outcomes. The bioavailability of their tablets is excellent, and patient feedback has been overwhelmingly positive. I highly recommend Nyloz to my orthopedic peers.",
+        experience: "22+ years",
+        patients: "5200+",
     },
 ]
 
@@ -63,14 +73,13 @@ export default function DoctorsReviewSection() {
                     </FadeIn>
                     <FadeIn direction="up" delay={0.1}>
                         <h2 className="text-3xl md:text-4xl font-bold text-blue-800 mb-4">
-                            Trusted by Healthcare Professionals Nationwide
+                            Doctor Testimonials for Nyloz Pharmaceuticals
                         </h2>
                     </FadeIn>
                     <FadeIn direction="up" delay={0.2}>
                         <p className="text-gray-600 text-lg text-justify">
-                            Our commitment to excellence is reflected in the trust and confidence that healthcare professionals place
-                            in our products. Here&#39;s what leading doctors across India have to say about NYLOZ Pharmaceutical&#39;s quality
-                            and effectiveness.
+                            The testimonials from medical professionals highlight Nyloz Pharmaceuticals as a trusted and effective pharmaceutical brand across various specialties, including pediatrics, gynecology, and orthopedics. Doctors consistently praise the brand’s commitment to safety, efficacy, and patient-friendly formulations. Nyloz is commended for its child-friendly flavors, bioavailability, strict quality control, and positive patient outcomes. Across all reviews, there is a strong recommendation for Nyloz as a reliable partner in medical care, making it a preferred choice among healthcare professionals.
+
                         </p>
                     </FadeIn>
                 </div>

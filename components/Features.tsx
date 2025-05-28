@@ -35,7 +35,7 @@ export default function Features() {
                                 </motion.div>
                                 <h3 className="text-2xl font-bold mb-4">Quality Products</h3>
                                 <p className="text-muted-foreground">
-                                    We are committed to manufacturing pharmaceutical products of the highest quality and efficacy.
+                                    We are committed to marketing and manufacturing pharmaceutical products of the highest quality and efficacy.
                                 </p>
                             </CardContent>
                         </Card>
