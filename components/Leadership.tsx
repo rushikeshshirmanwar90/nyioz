@@ -4,7 +4,6 @@ import { motion } from "framer-motion"
 import Image from 'next/image'
 
 import ceo from "@/public/images/ceo.jpg"
-import md from "@/public/images/md.jpg"
 
 
 const Leadership = () => {
